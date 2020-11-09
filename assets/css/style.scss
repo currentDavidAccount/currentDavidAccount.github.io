@@ -3,8 +3,7 @@
 ---
 ---
 
-@import "";
-<style>
+@import "{{ site.theme }}";
 
 .collapsible {
   background-color: #777;
@@ -28,5 +27,3 @@
   overflow: hidden;
   background-color: #f1f1f1;
 }
-
-</style>

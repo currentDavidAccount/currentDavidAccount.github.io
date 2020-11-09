@@ -4,7 +4,6 @@ layout: default
 
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -13,8 +12,7 @@ layout: default
 <button type="button" class="collapsible">API Name</button>
 <div class="content">
   <p>API description</p>
-
-
+  
  <p>Updates:</p>
 <button type="button" class="collapsible">update - $DATE</button>
 <div class="content">
@@ -29,6 +27,27 @@ layout: default
   <p>updated features</p>
 </div>
 </div>
+  
+<details>
+<summary>API Name</summary>
+  <br>
+  API Description.
+   <details>
+    <summary>update - $DATE</summary>
+    <br>
+    update details
+  </details>
+  <details>
+    <summary>update - $DATE</summary>
+    <br>
+   update details
+  </details>
+  <details>
+    <summar>yupdate - $DATE</summary>
+    <br>
+    update details
+  </details>
+</details>
  
 <script>
 var coll = document.getElementsByClassName("collapsible");
